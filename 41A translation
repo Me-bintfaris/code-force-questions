@@ -1,0 +1,12 @@
+s = str(raw_input())
+t = str(raw_input())
+if len(s)==len(t):
+    for i in range(len(s)):
+        x = "NO"
+        if s[i].lower()== t[len(s) - (1 + i)].lower():
+            x = "YES"
+        else:
+            break
+    print(x)
+else: 
+    print("NO")
