@@ -3,5 +3,5 @@ p=map(int,raw_input().split())
 sum=0
 for i in range(n):
     sum+=(p[i]/100.0)
-print(sum/n)*100
+print((sum/n)*100)
 
