@@ -1,0 +1,13 @@
+n=input()
+q=[]
+def cheaker(a,b,c):
+    if a+b==c or a+c==b or c+b==a:
+        return ("yes")
+    else:
+        return("no")
+for i in range(n):
+    x,y,z=map(int,raw_input().split())
+    q.append(cheaker(x,y,z))
+for i in range (n):
+    print (q[i])
+    
