@@ -1,0 +1,10 @@
+t=input()
+c=[]
+for i in range(t):
+    x=raw_input()
+    if x.upper()=="YES":
+        c.append("YES")
+    else:
+        c.append("NO")
+for i in range(t):
+    print(c[i])
