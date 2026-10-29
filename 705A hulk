@@ -1,0 +1,10 @@
+n=input()
+x="I hate it"
+y="I love it"
+s=x
+for i in range(n-1):
+    if i%2==0:
+        s=s.replace("it","that ")+y
+    if i%2!=0:
+        s=s.replace("it","that ")+x
+print(s)
