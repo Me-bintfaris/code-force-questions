@@ -1,0 +1,5 @@
+n=raw_input()
+x=list(n)
+x[0]=x[0].upper()
+n=''.join(x)
+print(n)
