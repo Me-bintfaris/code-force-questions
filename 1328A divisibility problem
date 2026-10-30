@@ -1,0 +1,10 @@
+t=input()
+x=[]
+for i in range(t):
+    a,b=map(int,raw_input().split())
+    count=0
+    if a%b!=0:
+        count=b-(a-((a//b)*b))
+    x.append(count)
+for i in range(t):
+    print(x[i])
