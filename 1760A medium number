@@ -1,0 +1,12 @@
+t=input()
+x=[]
+for i in range(t):
+    a,b,c=map(int,raw_input().split())
+    if a>b>c or a<b<c:
+        x.append(b)
+    if a>c>b or a<c<b:
+        x.append(c)
+    if c>a>b or c<a<b:
+        x.append(a)
+for i in range(t):
+    print(x[i])
