@@ -1,0 +1,11 @@
+t=input()
+x=[]
+for i in range(t):
+    n=input()
+    if n%2==0:
+        cout=n//2-1
+    if n%2!=0:
+        cout=n//2
+    x.append(cout)
+for i in range(t):
+    print (x[i])
