@@ -1,0 +1,10 @@
+t=input()
+x=[]
+for i in range(t):
+    z=raw_input()
+    if int(z[0])+int(z[1])+int(z[2])==int(z[3])+int(z[4])+int(z[5]):
+        x.append('yes')
+    else:
+        x.append('no')
+for i in range(t):
+    print(x[i])
