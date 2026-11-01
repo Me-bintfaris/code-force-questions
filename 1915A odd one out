@@ -1,0 +1,13 @@
+t=input()
+x=[]
+for i in range(t):
+    a,b,c=map (int,raw_input().split())
+    if a==b:
+        d=c
+    if a==c:
+        d=b
+    if c==b:
+        d=a
+    x.append(d)
+for i in range(t):
+    print (x[i])
