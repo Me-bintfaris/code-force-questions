@@ -1,0 +1,7 @@
+n,k=map(int,raw_input().split())
+x=map(int,raw_input().split())
+c=0
+for i in range(n):
+    if 5-x[i]>=k:
+        c+=1
+print(c//3)
