@@ -1,0 +1,14 @@
+t=input()
+x=[]
+for i in range(t):
+    y=input()
+    if y>=1900:
+        x.append("Division 1")
+    if 1600<=y<=1899:
+        x.append("Division 2")
+    if 1400<=y<=1599:
+        x.append("Division 3")
+    if y<=1399:
+        x.append("Division 4")
+for i in range(t):
+    print(x[i])
