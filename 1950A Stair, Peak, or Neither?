@@ -1,0 +1,13 @@
+t=input()
+x=[]
+for i in range(t):
+    a,b,c=map(int,raw_input().split())
+    if a<b<c:
+        x.append("STAIR")
+    elif a<b>c:
+        x.append("PEAK")
+    else:
+        x.append("NONE")
+for i in range(t):
+    print(x[i])
+
