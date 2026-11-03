@@ -1,0 +1,9 @@
+n,h=map(int,raw_input().split())
+x=map(int,raw_input().split())
+c=0
+for i in x:
+    if i<=h:
+        c+=1
+    if i>h:
+        c+=2
+print (c)
