@@ -1,0 +1,11 @@
+t=input()
+x=[]
+for i in range(t):
+    n=raw_input()
+    minm=int(n[0])
+    for i in n:
+        if int(i)<minm:
+            minm=int(i)
+    x.append(minm)
+for i in x:
+    print(i)
