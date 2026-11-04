@@ -1,0 +1,10 @@
+n=raw_input()
+m=raw_input()
+x=[]
+for i in range(len(n)):
+    if int(n[i])==int(m[i]):
+        x.append("0")
+    if int(n[i])!=int(m[i]):
+        x.append("1")
+x=''.join(x)
+print (x)
