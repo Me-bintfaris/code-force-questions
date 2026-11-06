@@ -1,0 +1,9 @@
+n,m=map(int,raw_input().split())
+for i in range(n//2):
+    if i%2==0:
+        print('#'*m)
+        print('.'*(m-1)+'#')
+    if i%2!=0:
+        print('#'*m)
+        print('#'+'.'*(m-1))
+print(m*"#")
