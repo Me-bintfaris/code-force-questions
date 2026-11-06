@@ -1,0 +1,10 @@
+t=input()
+x=[]
+for i in range(t):
+    a,b=map(str,raw_input().split())
+    c=a[0]+b[1]+b[2]
+    d=b[0]+a[1]+a[2]
+    r=[d,c]
+    x.append(r)
+for i in x:
+    print i[0], i[1]
