@@ -1,0 +1,10 @@
+n=raw_input()
+s=0
+for i in range(len(n)):
+    if int(n[i])==7 or int(n[i])==4:
+        s+=1
+if s==7 or s==4:
+    print("YES")
+else:
+    print("NO")
+        
