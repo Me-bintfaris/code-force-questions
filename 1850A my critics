@@ -1,0 +1,11 @@
+t=input()
+x=[]
+for i in range(t):
+    a,b,c=map(int,raw_input().split())
+    if a+b>=10 or a+c>=10 or b+c>=10:
+        x.append('YES')
+    else:
+        x.append('NO')
+for i in x:
+    print i
+
