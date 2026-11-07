@@ -1,0 +1,12 @@
+t=input()
+f=[]
+for i in range(t):
+    x=map(int,raw_input().split())
+    s=0
+    for i in x:
+        if x[0]<i:
+            s+=1
+    f.append(s)
+for i in f:
+    print i
+            
