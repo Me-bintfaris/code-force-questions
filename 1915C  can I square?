@@ -1,0 +1,13 @@
+from math import sqrt
+t=input()
+y=[]
+for i in range(t):
+    n=input()
+    x=map(int,raw_input().split())
+    z=int(sqrt(sum(x)))
+    if z*z==sum(x):
+        y.append("yes")
+    else:
+        y.append("no")
+for i in y:
+    print i
