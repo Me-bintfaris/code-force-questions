@@ -1,0 +1,11 @@
+t=input()
+y=[]
+for i in range(t):
+    n=input()
+    x=map(int,raw_input().split())
+    if len(x)==len(set(x)):
+        y.append("YES")
+    else:
+        y.append("NO")
+for i in y:
+    print(i)
