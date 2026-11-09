@@ -1,0 +1,8 @@
+t=input()
+x=[]
+for i in range(t):
+    n=raw_input()
+    s=int(n[0])+int(n[1])
+    x.append(s)
+for i in x:
+    print i
