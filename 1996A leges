@@ -1,0 +1,12 @@
+t=input()
+y=[]
+for i in range(t):
+    n=input()
+    x=n//4
+    s=0
+    if x*4!=n:
+        s=(n-(x*4))//2
+    y.append(s+x)
+for i in y:
+    print i
+        
