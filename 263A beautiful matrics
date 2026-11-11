@@ -1,0 +1,14 @@
+A=[]
+for i in range(5):
+    a=map(int,raw_input().split())
+    A.append(a)
+for i in range(5):
+    if sum(A[i])!=0:
+        x=i
+        break
+for i in range(5):
+    if A[x][i]==1:
+        y=i
+        break
+print (abs(2-x)+abs(2-y))
+    
