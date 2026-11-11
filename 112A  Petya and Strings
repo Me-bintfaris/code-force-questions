@@ -1,0 +1,8 @@
+x=raw_input().upper()
+y=raw_input().upper()
+if x<y:
+    print (-1)
+elif x>y:
+    print 1
+else:
+    print 0
