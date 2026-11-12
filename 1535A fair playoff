@@ -1,0 +1,21 @@
+t=input()
+x=[]
+for i in range(t):
+    y=map(int,raw_input().split())
+    if y[0]>y[1]:
+        a=y[0]
+    else:
+        a=y[1]
+    if y[2]>y[3]:
+        b=y[2]
+    else:
+        b=y[3]   
+    z=max(y)
+    y.remove(max(y))
+    r=max(y)
+    if (a,b)==(z,r) or (b,a)==(z,r):
+        x.append("YES")
+    else:
+        x.append("NO")
+for i in x:
+    print i
