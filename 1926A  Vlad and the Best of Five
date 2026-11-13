@@ -1,0 +1,18 @@
+t=input()
+x=[]
+for i in range(t):
+    n=raw_input()
+    ca=0
+    cb=0
+    for i in range(5):
+        if n[i]=="A":
+            ca+=1
+        else:
+            cb+=1
+    if ca>cb:
+        x.append("A")
+    if ca<cb:
+        x.append("B")
+for i in x:
+    print i
+        
