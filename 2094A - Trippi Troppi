@@ -1,0 +1,7 @@
+t=input()
+x=[]
+for i in range(t):
+    a,b,c=map(str,raw_input().split())
+    x.append(a[0]+b[0]+c[0])
+for i in x:
+    print i
