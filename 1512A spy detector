@@ -1,0 +1,15 @@
+t=input()
+x=[]
+for i in range(t):
+    n=input()
+    y=map(int,raw_input().split())
+    for j in range(n):
+        z=y.count(y[j])
+        if z!=1:
+            continue 
+        else:
+            x.append(j+1)
+            break
+for i in x:
+    print i
+        
