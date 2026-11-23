@@ -1,0 +1,16 @@
+t=input()
+x=[]
+for i in range(t):
+    sn=input()
+    s=raw_input()
+    tn=input()
+    t=raw_input()
+    dv=raw_input()
+    for i in range(tn):
+        if dv[i]=="V":
+            s=t[i]+s
+        elif dv[i]=="D":
+            s=s+t[i]
+    x.append(s)
+for i in x:
+    print i
